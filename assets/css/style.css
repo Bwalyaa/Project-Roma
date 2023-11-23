@@ -23,7 +23,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* main header */
 .header {
     font-family: 'Roboto';
     color: white;
@@ -53,6 +53,8 @@ main{
     overflow: hidden;
 }  
 
+/* first section */
+
 .text1 {
     display: flex;
     margin-top: 50px;
@@ -71,6 +73,8 @@ main{
     color:  #E7BC0E;
 }
 
+/* first article */
+
 .text2 {
     margin-top: 7rem;
     margin-left: 16rem;
@@ -82,6 +86,8 @@ main{
     color: white;
     background: black;
 }
+
+/* section numbers */
 
 .numbers {
     margin-left: 25rem;
@@ -110,6 +116,8 @@ main{
     font-size: 38px;
 }
 
+/* second article */
+
 .text6 {
     color: lightblue;
     line-height: 1.5;
@@ -118,6 +126,8 @@ main{
     margin-bottom: 10rem;
     font-size: 15px;
 }
+
+/* footer */
 
 .footer_img {
     background-image: url("../img/kid.png"), url("../img/see.png");
