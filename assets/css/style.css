@@ -8,23 +8,49 @@
     src: url("../fonts/MrDafoe-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'Santio';
+    src: url("../fonts/Santio\ Bold.ttf");
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header {
+.header {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 16px;
     display: flex;
     justify-content: end;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: 10px;
 }
 
-body {
-    margin: 0;
-    padding: 0;
+.img_nav {
+    width: 20px;
+    height: 20px;
+}
+
+.sticker {
+    width: 105px;
+    height: 105px;
+    margin-top: 40px;
+}
+
+main{
     background-image: url('../img/cleo-topper.jpg');
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
 }  
 
 .text1 {
@@ -52,21 +78,80 @@ body {
     line-height: 1.5;
 }
 
-.highlight2 {
+.highlight {
     color: white;
     background: black;
 }
 
 .numbers {
     margin-left: 25rem;
-    margin-top: 7rem;
+    margin-top: 12rem;
 }
 
+.text3 {
+    font-family: 'Santio';
+    color: #E7BC0E;
+}
+
+
 .text4 {
-    margin-top: 50px;
+    margin-top: 10px;
+    color: #CB91B6;
+    ;
 }
 
 .text5 {
-    margin-top: 50px;
+    font-family: 'Santio';
+    margin-top: 10px;
+    color: lightgreen;
 }
 
+.big {
+    font-size: 38px;
+}
+
+.text6 {
+    color: lightblue;
+    line-height: 1.5;
+    margin-left: 25rem;
+    margin-top: 12rem;
+    margin-bottom: 10rem;
+    font-size: 15px;
+}
+
+.footer_img {
+    background-image: url("../img/kid.png"), url("../img/see.png");
+    height: 100vh;
+    background-size: cover;
+    margin-top: 5rem;
+    width: 100vw;
+    /* background-position: right bottom, left top; */
+}
+
+.footer_img2 {
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+.end_text {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 40px;
+    margin-left: 40px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 10px 5px 0px 0px white;
+}
