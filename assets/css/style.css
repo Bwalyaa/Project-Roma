@@ -155,3 +155,35 @@ button {
 button:hover {
     box-shadow: 10px 5px 0px 0px white;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+    .text1 {
+        margin-left: 2rem; 
+    }
+
+    .schreibschrift {
+        margin-left: 2rem; 
+        color: turquoise;
+    }
+
+    .text2 {
+        margin-left: 2rem; 
+        color: white;
+    }
+
+    .numbers {
+        margin-left: 2rem; 
+    }
+
+    .text6 {
+        margin-left: 2rem; 
+        margin-right: 2rem; 
+        color: white;
+    }
+
+    .end_text {
+        color: gray;
+    }
+}
