@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Dafoe';
+    src: url("../fonts/MrDafoe-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: end;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/cleo-topper.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}  
+
+.text1 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 12rem;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.schreibschrift {
+    font-family: 'Dafoe';
+    font-size: 15px;
+    margin-top: 70px;
+    margin-left: 12rem;
+    color:  #E7BC0E;
+}
+
+.text2 {
+    margin-top: 7rem;
+    margin-left: 16rem;
+    color: rgb(58, 155, 147);
+    line-height: 1.5;
+}
+
+.highlight2 {
+    color: white;
+    background: black;
+}
+
+.numbers {
+    margin-left: 25rem;
+    margin-top: 7rem;
+}
+
+.text4 {
+    margin-top: 50px;
+}
+
+.text5 {
+    margin-top: 50px;
+}
+
